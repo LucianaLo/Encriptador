@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    height: 100%;
+    max-width: 1000px;
+    background-color: #fcb2e2;
+    width: 100%;
+
+}
+
+header{
+    text-align: center;
+    color: rgb(133, 188, 240);
+    height: 15%;
+    width: 100%;
+}  
+
+main{
+    height: 80%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container-consulta{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 50%;
+    flex-direction: column;
+}
+
+.container textarea {
+    background-color: #f16cc9;
+    resize: none;
+    height: 80%;
+    width: 70%;
+}
+
+.boton {
+    background-color: #9d93c0;
+    height: 30px;
+    width: 150px;
+    margin-left: 15px;
+}
+
+img{
+    display: block;
+}
+
+.botonCopiar{
+    background-color: pink;
+    height:30px;
+    width: 150px;
+    margin-left: 60px;
+}
+
+.container-respuesta {
+    display: flex;
+    flex-direction: column;
+}
+
+.p{
+    display: none;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+span{
+    border: solid 1px black;
+    width: 250px;
+    height: 250px;
+    background-color:#eaa7f0 ;
+
+}
+
+.footer{
+    color: black
+    font-style bold;
+    height: 5%;
+    width: 100%;
+}

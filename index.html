@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es-419">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>desafio de encriptador 1</title>
+</head>
+
+<body>
+    <header>
+        <h1>Encriptador</h1>
+            <img src="logo.jpeg">
+    </header>
+    <main>
+        <div class="container">
+       
+            <div class="container-consulta">
+                <textarea name="desencriptador" id="texto-encriptado" cols="30" rows="10" placeholder="ingrese el texto aquí ... sólo minúsculas sin acentos ni carácteres especiales"></textarea>
+                <div>
+                    <button class="boton" onclick= "encriptar()">Encriptar</button>
+                    <button class="boton" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </div> 
+            <div class="container-respuesta">
+                <img class="munecoImg"  src="muneco.jpeg">
+
+                <div class="p">
+                    <span id="parrafo"></span> 
+                    <button class="botonCopiar" onclick="copiar()">Copiar</button> 
+                </div>
+               
+            </div> 
+        </div>     
+    </main>
+    <footer>
+        <p class="footer">Hecho por Luciana Lozano</p>
+    
+    </footer>
+
+
+
+    <script src="codigo.js" defer></script>
+</body>
+
+</html>
